@@ -1,0 +1,16 @@
+body {
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    font-size: larger;
+    margin-top: 50px;
+    color: white;
+    background-image: url("space.jpg"); 
+}
+.back-button {
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.back-button:hover {
+    background-color: gray;
+}

@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("space.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.side{
+    width: 50%;
+    padding: 50px;
+}
+.character-list{
+    background-color: rgb(26, 26, 85);
+    list-style: none;
+    border-radius: 10px;
+}
+.character-list li{
+    padding: 10px;
+}
+.character-list li:hover{
+    background-color: #35356d;
+    border-radius: 10px;
+}
+.character-font {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.character-image{
+    width: 50%; 
+    height: auto;
+}
+.video-preview{
+    width: 50%; 
+    height: auto;
+}
